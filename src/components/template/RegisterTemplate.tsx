@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import {RegisterSchema,RegisterSchemaType} from 'schema'
 import {SubmitHandler ,useForm } from "react-hook-form"
-import { Resolver } from 'dns'
+
 import { zodResolver } from '@hookform/resolvers/zod'
-import axios from 'axios'
+
 import { toast } from 'react-toastify'
 import { quanLyNguoiDungServices } from 'services'
 import { useNavigate } from 'react-router-dom'
